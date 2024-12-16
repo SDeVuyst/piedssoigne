@@ -7,10 +7,10 @@ import Blog3 from "../../assets/images/blog/blog-3.jpg";
 import Work from "../../assets/images/portfolio/work-together.jpg";
 import Cal from "@calcom/embed-react";
 
-const OurClients = () => {
+const Afspraak = () => {
   return (
     <React.Fragment>
-      <Container>
+      <Container id="afspraak">
         <div className="pt-100 pb-90">
           <h2 className="display-2 text-center mb-100 mt-n10">Maak een Afspraak</h2>
           <Cal calLink="rick/get-rick-rolled" config={{ theme: "light" }}></Cal>
@@ -20,4 +20,4 @@ const OurClients = () => {
   );
 };
 
-export default OurClients;
+export default Afspraak;

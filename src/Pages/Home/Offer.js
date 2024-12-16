@@ -39,6 +39,7 @@ const Offer = () => {
                         stroke="currentColor"
                       />
                     </svg>
+                    {/* TODO: veranders svgs */}
                     <svg
                       width="21"
                       height="23"
@@ -56,14 +57,12 @@ const Offer = () => {
                     </svg>
                   </div>
                   <div className="feature-body pt-30">
-                    <h4 className="mt-n10 mb-30 pb-5">Behandelingen</h4>
+                    <h4 className="mt-n10 mb-30 pb-5">Behandeling</h4>
                     <ul className="list font-size-18">
                       <li>Knippen van de nagels</li>
                       <li>Verzorging nagelriemen</li>
-                      <li>Ingegroeide nagels</li>
-                      <li>MySQL</li>
-                      <li>MariaDB</li>
-                      <li>PostgreSQL</li>
+                      <li>Gespleten nagels</li>
+                      <li>...</li>
                     </ul>
                   </div>
                 </div>
@@ -104,13 +103,12 @@ const Offer = () => {
                     </svg>
                   </div>
                   <div className="feature-body pt-30">
-                    <h4 className="mt-n10 mb-30 pb-5">Front-end Dev</h4>
+                    <h4 className="mt-n10 mb-30 pb-5">Preventie</h4>
                     <ul className="list font-size-18">
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>Sass (SCSS)</li>
-                      <li>JavaScript (ES6)</li>
-                      <li>React</li>
+                      <li>Eeltvorming</li>
+                      <li>Likdoorns</li>
+                      <li>Ingroeiende teennagels</li>
+                      <li>...</li>
                     </ul>
                   </div>
                 </div>
@@ -172,7 +170,7 @@ const Offer = () => {
                     </svg>
                   </div>
                   <div className="feature-body pt-30">
-                    <h4 className="mt-n10 mb-30 pb-5">Adviezen</h4>
+                    <h4 className="mt-n10 mb-30 pb-5">Advies</h4>
                     <ul className="list font-size-18">
                       <li>advies en preventie op maat</li>
                       <li>doorverwijzing naar erkende podologe indien nodig</li>

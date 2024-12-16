@@ -1,8 +1,9 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { Col, Container, Row } from "reactstrap";
 import Logo from "../../assets/images/logo-white.svg";
 
+// TODO: footer
 const Footer = () => {
   return (
     <React.Fragment>
@@ -31,49 +32,7 @@ const Footer = () => {
                 shall moveth lesser very.
               </p>
             </Col>
-            <div className="d-none d-lg-block col-2"></div>
-            <Col lg={6}>
-              <p className="subtitle mb-30 text-muted">
-                subscribe to our newsletter
-              </p>
-              <form action="#">
-                <div className="form-group-overlay">
-                  <input
-                    className="form-control form-control-white"
-                    type="email"
-                    placeholder="Your Email *"
-                  />
-                  <NavLink
-                    to="/#"
-                    className="btn btn-clean btn-with-ball text-white"
-                  >
-                    send
-                    <span className="btn-ball" style={{ transform: "translateY(0px)" }}></span>
-                  </NavLink>
-                </div>
-              </form>
-            </Col>
-            <div className="d-none d-lg-block col-1"></div>
-          </Row>
-          <Row className="justify-content-between gh-1 gv-4 mb-30">
-            <Col lg={3}>
-              <ul className="nav flex-column text-white">
-                <li className="nav-item">
-                  <NavLink to="callto:+1 202-358-0309" className="nav-link">
-                    +1 202-358-0309
-                  </NavLink>
-                </li>
-                <li className="nav-item">
-                  <NavLink
-                    to="mailto:hello@themebau.com?subject=Test%20Address%20Email"
-                    className="nav-link"
-                  >
-                    hello@themebau.com
-                  </NavLink>
-                </li>
-              </ul>
-            </Col>
-            <div className="d-none d-lg-block col-2"></div>
+            <div className="d-none d-lg-block col-3"></div>
             <Col lg={6} className="col-12">
               <Row className="gh-1 gv-1">
                 <Col lg={4} className="col-12">
@@ -139,7 +98,27 @@ const Footer = () => {
                   </ul>
                 </Col>
               </Row>
+            </Col>            
+          </Row>
+          <Row className="justify-content-between gh-1 gv-4 mb-30">
+            <Col lg={3}>
+              <ul className="nav flex-column text-white">
+                <li className="nav-item">
+                  <NavLink to="callto:+1 202-358-0309" className="nav-link">
+                    +1 202-358-0309
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink
+                    to="mailto:hello@themebau.com?subject=Test%20Address%20Email"
+                    className="nav-link"
+                  >
+                    hello@themebau.com
+                  </NavLink>
+                </li>
+              </ul>
             </Col>
+            <div className="d-none d-lg-block col-2"></div>
             <div className="d-none d-lg-block col-1"></div>
           </Row>
           <Row className="justify-content-between mt-100 mt-lg-0">
@@ -206,7 +185,7 @@ const Footer = () => {
             </Col>
             <Col className="col-auto">
               <div className="footer-copyright">
-                © 2020-2023 | Themebau by RunWebRun.
+                © 2024 | Gemaakt door <Link to="https://github.com/SDeVuyst" className="footer-copyright">SDeVuyst</Link>.
               </div>
             </Col>
           </Row>

@@ -38,11 +38,10 @@ const WhoWeAre = () => {
                 voor behandeling, preventie en advies
                 en indien nodig correcte doorverwijzing.
               </p>
-              {/* TODO: juist link */}
-              <NavLink to="/about-us" className="btn btn-dark btn-with-ball"> 
-                afspraak maken
-                <span className="btn-ball" style={{ transform: "translateY(0px)" }}></span>
-              </NavLink>
+              <a href="#afspraak" className="btn btn-dark btn-with-ball">
+                  afspraak maken
+                  <span className="btn-ball" style={{ transform: "translateY(0px)" }}></span>
+              </a>
             </Col>
           </Row>
         </Container>
@@ -87,6 +86,7 @@ const WhoWeAre = () => {
                 <span className="card-title h5">
                   Geen vervoer nodig
                 </span>
+                {/* TODO read more knoppen weg bij elke kaart */}
                 <span className="btn btn-clean">
                   read more
                   <svg

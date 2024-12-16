@@ -2,11 +2,9 @@ import React from "react";
 import Navbar from "../../Layouts/CommonLayouts/Navbar2";
 import Slider from "./Slider";
 import WhoWeAre from "./WhoWeAre";
-import FeaturedWork from "./FeaturedWork";
 import Offer from "./Offer";
 import Praktisch from "./Praktisch";
-import Service from "./Service";
-import OurClients from "./OurClients";
+import Afspraak from "./Afspraak";
 import Footer from "../../Layouts/CommonLayouts/Footer1";
 
 const Home = () => {
@@ -18,11 +16,9 @@ const Home = () => {
       <Slider />
       <div className="content-wrap" id="content-wrap">
         <WhoWeAre />
-        {/* <FeaturedWork /> */}
         <Offer />
         <Praktisch />
-        {/* <Service /> */}
-        <OurClients />
+        <Afspraak />
       </div>
       <Footer />
     </React.Fragment>
