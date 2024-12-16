@@ -15,9 +15,9 @@ const WhoWeAre = () => {
         <Container>
           <Row className="justify-content-center">
             <Col lg={7} className="col-12 text-center">
-              <p className="subtitle mt-n10">who we are</p>
+              <p className="subtitle mt-n10">wie ben ik</p>
               <h1 className="h3 mb-0">
-                An award-winning design & dev team that is proud of our work 👋
+                Ik ben Vanessa, een goedlachse en warme persoonlijkheid die graag wat meer over zichzelf kwijt wilt.👋
               </h1>
             </Col>
           </Row>
@@ -25,19 +25,22 @@ const WhoWeAre = () => {
             <Col lg={5}>
               <hr className="mt-0" />
               <p className="lead">
-                Over 10 years of combined experience, and know thing or two
-                about designing websites and mobile apps.
+              Voetverzorging is er voor iedereen,
+              of u beperkt bent in u mobiliteit,
+              herstellende van een operatie of
+              u het gewoon gemakkelijker vind u voeten
+              te laten soigneren bij u thuis.
               </p>
             </Col>
             <Col lg={5}>
               <p>
-                Were divided, moved night light darkness winged may also make
-                man for. Winged the for Earth creeping appear evening, gathered
-                Forth so he. Life that dry of created greater can't also
-                gathered female green.
+                Voor jong en oud kom ik graag bij u langs
+                voor behandeling, preventie en advies
+                en indien nodig correcte doorverwijzing.
               </p>
-              <NavLink to="/about-us" className="btn btn-dark btn-with-ball">
-                about us
+              {/* TODO: juist link */}
+              <NavLink to="/about-us" className="btn btn-dark btn-with-ball"> 
+                afspraak maken
                 <span className="btn-ball" style={{ transform: "translateY(0px)" }}></span>
               </NavLink>
             </Col>
@@ -64,6 +67,7 @@ const WhoWeAre = () => {
               </span>
               <span className="card-img-overlay">
                 <span className="card-icon">
+                {/* TODO: update svgs */}
                   <svg
                     width="33"
                     height="33"
@@ -81,7 +85,7 @@ const WhoWeAre = () => {
                   </svg>
                 </span>
                 <span className="card-title h5">
-                  Web Design and Development
+                  Geen vervoer nodig
                 </span>
                 <span className="btn btn-clean">
                   read more
@@ -153,7 +157,7 @@ const WhoWeAre = () => {
                   </svg>
                 </span>
                 <span className="card-title h5">
-                  Brand Strategy Accelerator
+                  Zorg op maat en in huiselijke sfeer
                 </span>
                 <span className="btn btn-clean">
                   read more
@@ -218,7 +222,7 @@ const WhoWeAre = () => {
                   </svg>
                 </span>
                 <span className="card-title h5">
-                  Packaging and Brand Identity
+                  Minder tijdsverlies in u dagelijkse routine
                 </span>
                 <span className="btn btn-clean">
                   read more
@@ -282,7 +286,9 @@ const WhoWeAre = () => {
                     />
                   </svg>
                 </span>
-                <span className="card-title h5">Content Production</span>
+                <span className="card-title h5">
+                  Even flexibel, hygienisch en deskundig als in een salon
+                </span>
                 <span className="btn btn-clean">
                   read more
                   <svg

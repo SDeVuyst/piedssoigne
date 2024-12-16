@@ -25,13 +25,6 @@ import C4Style2 from "../Pages/Projects/Column4/Style2";
 import C4Style3 from "../Pages/Projects/Column4/Style3";
 import C4Style4 from "../Pages/Projects/Column4/Style4";
 
-import PortfolioStyle1 from "../Pages/Projects/SingleWorks/Style1";
-import PortfolioStyle2 from "../Pages/Projects/SingleWorks/Style2";
-import PortfolioStyle3 from "../Pages/Projects/SingleWorks/Style3";
-import PortfolioStyle4 from "../Pages/Projects/SingleWorks/Style4";
-import PortfolioStyle5 from "../Pages/Projects/SingleWorks/Style5";
-import PortfolioStyle6 from "../Pages/Projects/SingleWorks/Style6";
-
 //Pages
 import Aboutus1 from "../Pages/About/AboutUs1";
 import Aboutus2 from "../Pages/About/AboutUs2";
@@ -41,7 +34,6 @@ import SingleService from "../Pages/Services/SingleService";
 import Column3 from "../Pages/Blog/Column3";
 import Column1 from "../Pages/Blog/Column1";
 import SinglePost from "../Pages/Blog/SinglePost";
-import ComingSoon from "../Pages/ComingSoon";
 import Page404 from "../Pages/404";
 
 import Contact1 from "../Pages/Contact/Contact1";
@@ -51,7 +43,6 @@ import FreelancerPortfolio from "../Pages/FreelancerPortfolio";
 import InteractiveDark from "../Pages/InteractiveDark";
 import InteractiveLight from "../Pages/InteractiveLight";
 import LeftMenu from "../Pages/LeftMenu";
-import DigitalAgency from "../Pages/DigitalAgency";
 import CarouselDark from "../Pages/CarouselDark";
 import CarouselLight from "../Pages/CarouselLight";
 import FullScreenShowcase from "../Pages/FullScreenShowcase";
@@ -65,7 +56,6 @@ const routes = [
   { path: "/interactive-links-dark", element: <InteractiveDark /> },
   { path: "/interactive-links-light", element: <InteractiveLight /> },
   { path: "/left-menu", element: <LeftMenu /> },
-  { path: "/digital-agency", element: <DigitalAgency /> },
   { path: "/carousel-dark", element: <CarouselDark /> },
   { path: "/carousel-light", element: <CarouselLight /> },
   { path: "/fullscreen-showcase", element: <FullScreenShowcase /> },
@@ -91,13 +81,6 @@ const routes = [
   { path: "/portfolio-col-4-style-3", element: <C4Style3 /> },
   { path: "/portfolio-col-4-style-4", element: <C4Style4 /> },
 
-  { path: "/portfolio-single-style-1", element: <PortfolioStyle1 /> },
-  { path: "/portfolio-single-style-2", element: <PortfolioStyle2 /> },
-  { path: "/portfolio-single-style-3", element: <PortfolioStyle3 /> },
-  { path: "/portfolio-single-style-4", element: <PortfolioStyle4 /> },
-  { path: "/portfolio-single-style-5", element: <PortfolioStyle5 /> },
-  { path: "/portfolio-single-style-6", element: <PortfolioStyle6 /> },
-
   { path: "/about-us", element: <Aboutus1 /> },
   { path: "/about-us-2", element: <Aboutus2 /> },
   { path: "/about-me", element: <AbouteMe /> },
@@ -109,7 +92,6 @@ const routes = [
   { path: "/blog1", element: <Column1 /> },
   { path: "/singlepost", element: <SinglePost /> },
 
-  { path: "/coming-soon", element: <ComingSoon /> },
   { path: "/404", element: <Page404 /> },
 
   { path: "/contact1", element: <Contact1 /> },

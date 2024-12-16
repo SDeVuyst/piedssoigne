@@ -11,7 +11,7 @@ import {
   NavLink,
 } from "reactstrap";
 import { NavLink as RouterLink } from "react-router-dom";
-const WorkProcess = () => {
+const Praktisch = () => {
   // Vertical Nav Tabs
   const [activeTab, setactiveTab] = useState("1");
   const toggleVertical = (tab) => {
@@ -37,7 +37,7 @@ const WorkProcess = () => {
           </svg>
         </div>
         <Container>
-          <h2 className="text-white mb-100 mt-n10">Work process</h2>
+          <h2 className="text-white mb-100 mt-n10">Praktisch</h2>
           <Row className="gh-1 gv-5">
             <Col lg={4} className="col-12">
               <Nav
@@ -53,7 +53,7 @@ const WorkProcess = () => {
                       toggleVertical("1");
                     }}
                   >
-                    Search an Idea!<span className="badge">01</span>
+                    Prijs<span className="badge">01</span>
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -65,7 +65,7 @@ const WorkProcess = () => {
                     }}
                     id="v-pills-profile-tab"
                   >
-                    Design<span className="badge">02</span>
+                    Betalingswijze<span className="badge">02</span>
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -80,7 +80,7 @@ const WorkProcess = () => {
                     }}
                     id="v-pills-messages-tab"
                   >
-                    Development<span className="badge">03</span>
+                    Afspraak annuleren of verplaatsen<span className="badge">03</span>
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -94,7 +94,21 @@ const WorkProcess = () => {
                     }}
                     id="v-pills-settings-tab"
                   >
-                    Release<span className="badge">04</span>
+                    Duur van een voetverzorging<span className="badge">04</span>
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    style={{ cursor: "pointer" }}
+                    className={classnames({
+                      active: activeTab === "5",
+                    })}
+                    onClick={() => {
+                      toggleVertical("5");
+                    }}
+                    id="v-pills-settings-tab"
+                  >
+                    Wat moet ik zelf voorzien<span className="badge">05</span>
                   </NavLink>
                 </NavItem>
               </Nav>
@@ -115,10 +129,7 @@ const WorkProcess = () => {
                   <Row className="gh-5 gv-5">
                     <div className="col-md">
                       <p>
-                        God he their every blessed upon male earth also midst
-                        fill creeping Seas their winged can't shall signs sea
-                        mornings gathered brought, creeping fruitful you'll open
-                        there bearing.
+                        Voor een volledige behandeling telt een vast bedrag: €35 incl. verplaatsingskosten binnen de straal van 20km vanuit Veldegem. {'>'}20km= +€2
                       </p>
                       <RouterLink
                         to="/services"
@@ -265,10 +276,7 @@ const WorkProcess = () => {
                   <Row className="gh-5 gv-5">
                     <div className="col-md">
                       <p>
-                        Creepeth female let thing deep sea yielding it, void
-                        midst third creepeth tree don't let upon greater. Their
-                        good Living beast without great us you'll lights seasons
-                        upon god.
+                        Betalen kan via Cash, Payconiq of via overschrijving
                       </p>
                       <RouterLink
                         to="/services"
@@ -452,11 +460,9 @@ const WorkProcess = () => {
                 >
                   <Row className="gh-5 gv-5">
                     <div className="col-md">
+                      {/* TODO: volzin + telefoon link */}
                       <p>
-                        Set image without divide the doesn't whales have tree
-                        can't stars signs male may male over first can't for
-                        were i second living for itself fourth that one give
-                        lights.
+                        Minimum 24u voordien telefonisch of via sms
                       </p>
                       <RouterLink
                         to="/services"
@@ -572,11 +578,9 @@ const WorkProcess = () => {
                 >
                   <Row className="gh-5 gv-5">
                     <div className="col-lg">
+                    {/* TODO: volzin */}
                       <p>
-                        Their behold is sea you'll cattle also together fowl day
-                        moved forth fish fowl every give fowl. Fruit subdue
-                        firmament i living won't waters called signs heaven
-                        can't, fifth days.
+                      Gemiddeld tussen 30-60 minuten
                       </p>
                       <RouterLink
                         to="/services"
@@ -716,6 +720,154 @@ const WorkProcess = () => {
                     </Col>
                   </Row>
                 </TabPane>
+                <TabPane
+                  tabId="5"
+                  className="tab-pane fade show"
+                  id="v-pills-home"
+                  role="tabpanel"
+                  aria-labelledby="idea-tab"
+                >
+                  <Row className="gh-5 gv-5">
+                    <div className="col-md">
+                    {/* TODO: volzin */}
+                      <p>
+                      1 handdoek en uw breedste glimlach
+                      </p>
+                      <RouterLink
+                        to="/services"
+                        className="btn btn-white btn-with-ball"
+                      >
+                        read more
+                        <span className="btn-ball" style={{ transform: "translateY(0px)" }}></span>
+                      </RouterLink>
+                    </div>
+                    <Col className="col-auto mt-lg-n1 d-none d-md-block">
+                      <svg
+                        width="200"
+                        height="200"
+                        viewBox="0 0 200 200"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle
+                          cx="115.152"
+                          cy="84.8485"
+                          r="83.3485"
+                          stroke="currentColor"
+                          strokeWidth="3"
+                          strokeDasharray="6 6"
+                        />
+                        <circle
+                          cx="73.9394"
+                          cy="127.273"
+                          r="59.1061"
+                          fill="#0E0E0E"
+                          stroke="currentColor"
+                          strokeWidth="3"
+                        />
+                        <circle
+                          cx="40"
+                          cy="160"
+                          r="38.5"
+                          fill="#0E0E0E"
+                          stroke="currentColor"
+                          strokeWidth="3"
+                        />
+                        <circle
+                          cx="19.3939"
+                          cy="139.394"
+                          r="1.92424"
+                          fill="currentColor"
+                          stroke="currentColor"
+                        />
+                        <circle
+                          cx="38.7879"
+                          cy="139.394"
+                          r="1.92424"
+                          fill="currentColor"
+                          stroke="currentColor"
+                        />
+                        <circle
+                          cx="59.3939"
+                          cy="139.394"
+                          r="1.92424"
+                          fill="currentColor"
+                          stroke="currentColor"
+                        />
+                        <circle
+                          cx="49.697"
+                          cy="149.091"
+                          r="1.92424"
+                          fill="currentColor"
+                          stroke="currentColor"
+                        />
+                        <circle
+                          cx="29.0909"
+                          cy="149.091"
+                          r="1.92424"
+                          fill="currentColor"
+                          stroke="currentColor"
+                        />
+                        <circle
+                          cx="38.7879"
+                          cy="158.788"
+                          r="1.92424"
+                          fill="currentColor"
+                          stroke="currentColor"
+                        />
+                        <circle
+                          cx="19.3939"
+                          cy="158.788"
+                          r="1.92424"
+                          fill="currentColor"
+                          stroke="currentColor"
+                        />
+                        <circle
+                          cx="59.3939"
+                          cy="158.788"
+                          r="1.92424"
+                          fill="currentColor"
+                          stroke="currentColor"
+                        />
+                        <circle
+                          cx="49.697"
+                          cy="169.697"
+                          r="1.92424"
+                          fill="currentColor"
+                          stroke="currentColor"
+                        />
+                        <circle
+                          cx="29.0909"
+                          cy="169.697"
+                          r="1.92424"
+                          fill="currentColor"
+                          stroke="currentColor"
+                        />
+                        <circle
+                          cx="19.3939"
+                          cy="179.394"
+                          r="1.92424"
+                          fill="currentColor"
+                          stroke="currentColor"
+                        />
+                        <circle
+                          cx="38.7879"
+                          cy="179.394"
+                          r="1.92424"
+                          fill="currentColor"
+                          stroke="currentColor"
+                        />
+                        <circle
+                          cx="59.3939"
+                          cy="179.394"
+                          r="1.92424"
+                          fill="currentColor"
+                          stroke="currentColor"
+                        />
+                      </svg>
+                    </Col>
+                  </Row>
+                </TabPane>
               </TabContent>
             </Col>
           </Row>
@@ -725,4 +877,4 @@ const WorkProcess = () => {
   );
 };
 
-export default WorkProcess;
+export default Praktisch;

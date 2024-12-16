@@ -58,8 +58,8 @@ const Slider = () => {
                   </span>
                   <span className="card-img-overlay">
                     <span className="card-title h1">
-                      <span className="card-title-decoration"></span>Colibri
-                      Creative Project
+                      <span className="card-title-decoration"></span>Medische
+                      Pedicure aan huis
                     </span>
                   </span>
                 </NavLink>

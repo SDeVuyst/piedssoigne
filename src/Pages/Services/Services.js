@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../../Layouts/CommonLayouts/Navbar4";
-import WorkProcess from "../Home/WorkProcess";
+import Praktisch from "../Home/Praktisch";
 import { Link } from "react-router-dom";
 import Service from "../../assets/images/service/services-1920-1080.jpg";
 import UserExp from "../../assets/images/service/user-experience-1040-1260.jpg";
@@ -130,7 +130,7 @@ const Services = () => {
             </Row>
           </Container>
         </div>
-        <WorkProcess />
+        <Praktisch />
         <div className="pt-160 pb-130">
           <Container>
             <h2
