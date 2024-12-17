@@ -28,8 +28,7 @@ const Footer = () => {
                 <img width="184" src={Logo} alt="" />
               </NavLink>
               <p className="mb-0">
-                Be saying moveth spirit fruitful called set evening fly give
-                shall moveth lesser very.
+                Voor jong en oud kom ik graag bij u langs voor behandeling, preventie en advies en indien nodig correcte doorverwijzing.
               </p>
             </Col>
             <div className="d-none d-lg-block col-3"></div>
@@ -37,62 +36,42 @@ const Footer = () => {
               <Row className="gh-1 gv-1">
                 <Col lg={4} className="col-12">
                   <ul className="nav flex-column text-white">
+                  {/* TODO fix navlinks, nu gaan ze nergens naar toe, maar zouden moeten scrollen naar juiste spot, zie button afspraak maken in wie ben ik sectie */}
                     <li className="nav-item">
                       <NavLink to="/#" className="nav-link">
-                        About us
+                        Wie ben ik?
                       </NavLink>
                     </li>
                     <li className="nav-item">
                       <NavLink to="/#" className="nav-link">
-                        Services
+                        Wat doe ik?
                       </NavLink>
                     </li>
                     <li className="nav-item">
                       <NavLink to="/#" className="nav-link">
-                        Our team
+                        Praktisch
                       </NavLink>
                     </li>
                     <li className="nav-item">
                       <NavLink to="/#" className="nav-link">
-                        Careers
-                      </NavLink>
-                    </li>
-                  </ul>
-                </Col>
-                <Col lg={4} className="col-12">
-                  <ul className="nav flex-column text-white">
-                    <li className="nav-item">
-                      <NavLink to="/#" className="nav-link">
-                        Work process
-                      </NavLink>
-                    </li>
-                    <li className="nav-item">
-                      <NavLink to="/#" className="nav-link">
-                        FAQ
-                      </NavLink>
-                    </li>
-                    <li className="nav-item">
-                      <NavLink to="/#" className="nav-link">
-                        Our blog
-                      </NavLink>
-                    </li>
-                    <li className="nav-item">
-                      <NavLink to="/#" className="nav-link">
-                        Contacts
+                        Afspraak maken
                       </NavLink>
                     </li>
                   </ul>
                 </Col>
-                <Col lg={4} className="col-12">
+                <Col className="col-auto">
                   <ul className="nav flex-column text-white">
                     <li className="nav-item">
-                      <NavLink to="/#" className="nav-link">
-                        Privacy
+                      <NavLink to="callto:+1 202-358-0309" className="nav-link">
+                        +1 202-358-0309
                       </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink to="/#" className="nav-link">
-                        Terms of Use
+                      <NavLink
+                        to="mailto:hello@themebau.com?subject=Test%20Address%20Email"
+                        className="nav-link"
+                      >
+                        hello@themebau.com
                       </NavLink>
                     </li>
                   </ul>
@@ -101,23 +80,6 @@ const Footer = () => {
             </Col>            
           </Row>
           <Row className="justify-content-between gh-1 gv-4 mb-30">
-            <Col lg={3}>
-              <ul className="nav flex-column text-white">
-                <li className="nav-item">
-                  <NavLink to="callto:+1 202-358-0309" className="nav-link">
-                    +1 202-358-0309
-                  </NavLink>
-                </li>
-                <li className="nav-item">
-                  <NavLink
-                    to="mailto:hello@themebau.com?subject=Test%20Address%20Email"
-                    className="nav-link"
-                  >
-                    hello@themebau.com
-                  </NavLink>
-                </li>
-              </ul>
-            </Col>
             <div className="d-none d-lg-block col-2"></div>
             <div className="d-none d-lg-block col-1"></div>
           </Row>

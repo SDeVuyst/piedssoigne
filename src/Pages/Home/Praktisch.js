@@ -276,7 +276,7 @@ const Praktisch = () => {
                   <Row className="gh-5 gv-5">
                     <div className="col-md">
                       <p>
-                        Betalen kan via Cash, Payconiq of via overschrijving
+                        Betalen kan via Cash, Payconiq of via overschrijving.
                       </p>
                       <RouterLink
                         to="/services"
@@ -462,7 +462,7 @@ const Praktisch = () => {
                     <div className="col-md">
                       {/* TODO: volzin + telefoon link */}
                       <p>
-                        Minimum 24u voordien telefonisch of via sms
+                        Indien u een afspraak wilt annuleren of verplaatsen, vragen wij u vriendelijk dit minimaal 24 uur van tevoren te doen. U kunt dit telefonisch of via sms doorgeven.
                       </p>
                       <RouterLink
                         to="/services"
@@ -580,7 +580,7 @@ const Praktisch = () => {
                     <div className="col-lg">
                     {/* TODO: volzin */}
                       <p>
-                      Gemiddeld tussen 30-60 minuten
+                        De duur van een afspraak bedraagt gemiddeld tussen de 30 en 60 minuten.
                       </p>
                       <RouterLink
                         to="/services"
@@ -731,7 +731,7 @@ const Praktisch = () => {
                     <div className="col-md">
                     {/* TODO: volzin */}
                       <p>
-                      1 handdoek en uw breedste glimlach
+                        Wij vragen u om zelf één handdoek mee te brengen en natuurlijk uw breedste glimlach! 😊
                       </p>
                       <RouterLink
                         to="/services"
