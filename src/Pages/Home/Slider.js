@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -8,6 +7,7 @@ import { Pagination, Navigation, Autoplay } from "swiper";
 import Colorib from "../../assets/images/portfolio/colibri-creative-1920-1080.jpg";
 import Happy from "../../assets/images/portfolio/happy-moments-1920-1080.jpg";
 import Portfolio from "../../assets/images/portfolio/luxury-car-1920-1080.jpg";
+
 const Slider = () => {
   return (
     <React.Fragment>
@@ -42,10 +42,7 @@ const Slider = () => {
           >
             <div className="swiper-wrapper">
               <SwiperSlide>
-                <NavLink
-                  className="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white"
-                  to="/portfolio-single-style-1"
-                >
+                <div className="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white">
                   <span
                     className="card-img swiper-image"
                     data-swiper-parallax-x="20%"
@@ -62,13 +59,10 @@ const Slider = () => {
                       Pedicure aan huis
                     </span>
                   </span>
-                </NavLink>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <NavLink
-                  className="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white"
-                  to="/portfolio-single-style-2"
-                >
+                <div className="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white">
                   <span
                     className="card-img swiper-image"
                     data-swiper-parallax-x="20%"
@@ -84,13 +78,10 @@ const Slider = () => {
                       <span className="card-title-decoration"></span>Professionele voetzorg, zonder de deur uit te gaan.
                     </span>
                   </span>
-                </NavLink>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <NavLink
-                  className="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white"
-                  to="/portfolio-single-style-3"
-                >
+                <div className="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white">
                   <span
                     className="card-img swiper-image"
                     data-swiper-parallax-x="20%"
@@ -106,7 +97,7 @@ const Slider = () => {
                       <span className="card-title-decoration"></span>Specialist in medische voetzorg, tot aan uw voordeur.
                     </span>
                   </span>
-                </NavLink>
+                </div>
               </SwiperSlide>
             </div>
           </div>
