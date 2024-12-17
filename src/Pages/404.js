@@ -1,15 +1,13 @@
 import React from "react";
 import { Container } from "reactstrap";
-import Footer from "../Layouts/CommonLayouts/Footer2";
-import Navbar from "../Layouts/CommonLayouts/Navbar4";
+import Footer from "../Layouts/CommonLayouts/Footer1";
 import { Link } from "react-router-dom";
 const Page404 = () => {
   //meta title
-  document.title = "Themebau | 404";
+  document.title = "Pieds Soingés | 404";
   return (
     <React.Fragment>
-      <Navbar navClass="navbar-fixed" styleClass="2" />
-      <div className="content-wrap" id="content-wrap">
+      <div className="content-wrap vh-100" id="content-wrap">
         <div className="py-160 text-center">
           <Container className="shape-parent">
             <div className="shape mt-n160 ms-30">
@@ -32,17 +30,17 @@ const Page404 = () => {
               404
             </h1>
             <p className="h3 mb-10" data-aos="fade-up">
-              Page not found 😿
+              Pagina niet gevonden 😿
             </p>
             <p className="mb-40 pb-2" data-aos="fade-up">
-              Perhaps you would like to go to our home page?
+              Misschien wilt u naar onze homepagina gaan?
             </p>
             <Link
               to="/home"
               className="btn btn-dark btn-with-ball mb-15"
               data-aos="fade-up"
             >
-              go to home
+              ga naar de startpagina
               <span className="btn-ball" style={{ transform: "translateY(0px)" }}></span>
             </Link>
           </Container>

@@ -135,7 +135,7 @@ const Praktisch = () => {
                         to="/services"
                         className="btn btn-white btn-with-ball"
                       >
-                        read more
+                        lees meer
                         <span className="btn-ball" style={{ transform: "translateY(0px)" }}></span>
                       </RouterLink>
                     </div>
@@ -282,7 +282,7 @@ const Praktisch = () => {
                         to="/services"
                         className="btn btn-light btn-with-ball"
                       >
-                        read more
+                        lees meer
                         <span className="btn-ball" style={{ transform: "translateY(0px)" }}></span>
                       </RouterLink>
                     </div>
@@ -468,7 +468,7 @@ const Praktisch = () => {
                         to="/services"
                         className="btn btn-light btn-with-ball"
                       >
-                        read more
+                        lees meer
                         <span className="btn-ball" style={{ transform: "translateY(0px)" }}></span>
                       </RouterLink>
                     </div>
@@ -586,7 +586,7 @@ const Praktisch = () => {
                         to="/services"
                         className="btn btn-light btn-with-ball"
                       >
-                        read more
+                        lees meer
                         <span className="btn-ball" style={{ transform: "translateY(0px)" }}></span>
                       </RouterLink>
                     </div>
@@ -737,7 +737,7 @@ const Praktisch = () => {
                         to="/services"
                         className="btn btn-white btn-with-ball"
                       >
-                        read more
+                        lees meer
                         <span className="btn-ball" style={{ transform: "translateY(0px)" }}></span>
                       </RouterLink>
                     </div>

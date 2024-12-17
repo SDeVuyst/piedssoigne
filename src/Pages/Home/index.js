@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../Layouts/CommonLayouts/Navbar2";
 import Slider from "./Slider";
-import WhoWeAre from "./WhoWeAre";
+import WieBenIk from "./WieBenIk";
 import Offer from "./Offer";
 import Praktisch from "./Praktisch";
 import Afspraak from "./Afspraak";
@@ -15,7 +15,7 @@ const Home = () => {
       <Navbar navClass="dark" />
       <Slider />
       <div className="content-wrap" id="content-wrap">
-        <WhoWeAre />
+        <WieBenIk />
         <Offer />
         <Praktisch />
         <Afspraak />

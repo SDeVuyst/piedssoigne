@@ -8,7 +8,7 @@ import BrandStrategy from "../../assets/images/service/brand-strategy.jpg";
 import Packaging from "../../assets/images/service/packaging.jpg";
 import ContentProduction from "../../assets/images/service/content-production.jpg";
 
-const WhoWeAre = () => {
+const WieBenIk = () => {
   return (
     <React.Fragment>
       <div className="py-160">
@@ -28,7 +28,7 @@ const WhoWeAre = () => {
               Voetverzorging is er voor iedereen,
               of u beperkt bent in u mobiliteit,
               herstellende van een operatie of
-              u het gewoon gemakkelijker vind u voeten
+              u het gewoon gemakkelijker vindt uw voeten
               te laten soigneren bij u thuis.
               </p>
             </Col>
@@ -86,9 +86,9 @@ const WhoWeAre = () => {
                 <span className="card-title h5">
                   Geen vervoer nodig
                 </span>
-                {/* TODO read more knoppen weg bij elke kaart */}
+                {/* TODO lees meer knoppen weg bij elke kaart */}
                 <span className="btn btn-clean">
-                  read more
+                  lees meer
                   <svg
                     className="icon-arrow icon-arrow-right"
                     width="25"
@@ -160,7 +160,7 @@ const WhoWeAre = () => {
                   Zorg op maat en in huiselijke sfeer
                 </span>
                 <span className="btn btn-clean">
-                  read more
+                  lees meer
                   <svg
                     className="icon-arrow icon-arrow-right"
                     width="25"
@@ -222,10 +222,10 @@ const WhoWeAre = () => {
                   </svg>
                 </span>
                 <span className="card-title h5">
-                  Minder tijdsverlies in u dagelijkse routine
+                  Minder tijdsverlies in uw dagelijkse routine
                 </span>
                 <span className="btn btn-clean">
-                  read more
+                  lees meer
                   <svg
                     className="icon-arrow icon-arrow-right"
                     width="25"
@@ -290,7 +290,7 @@ const WhoWeAre = () => {
                   Even flexibel, hygienisch en deskundig als in een salon
                 </span>
                 <span className="btn btn-clean">
-                  read more
+                  lees meer
                   <svg
                     className="icon-arrow icon-arrow-right"
                     width="25"
@@ -324,4 +324,4 @@ const WhoWeAre = () => {
   );
 };
 
-export default WhoWeAre;
+export default WieBenIk;

@@ -3,28 +3,6 @@ import Index from "../Pages/Index";
 import Home from "../Pages/Home";
 import SimplePortfolio from "../Pages/SimplePortfolio";
 
-//Projects
-import C1Style1 from "../Pages/Projects/Column1/Style1";
-import C1Style2 from "../Pages/Projects/Column1/Style2";
-
-import C2Style1 from "../Pages/Projects/Column2/Style1";
-import C2Style2 from "../Pages/Projects/Column2/Style2";
-import C2Style3 from "../Pages/Projects/Column2/Style3";
-import C2Style4 from "../Pages/Projects/Column2/Style4";
-import C2Style5 from "../Pages/Projects/Column2/Style5";
-import C2Style6 from "../Pages/Projects/Column2/Style6";
-
-import C3Style1 from "../Pages/Projects/Column3/Style1";
-import C3Style2 from "../Pages/Projects/Column3/Style2";
-import C3Style3 from "../Pages/Projects/Column3/Style3";
-import C3Style4 from "../Pages/Projects/Column3/Style4";
-import C3Style5 from "../Pages/Projects/Column3/Style5";
-
-import C4Style1 from "../Pages/Projects/Column4/Style1";
-import C4Style2 from "../Pages/Projects/Column4/Style2";
-import C4Style3 from "../Pages/Projects/Column4/Style3";
-import C4Style4 from "../Pages/Projects/Column4/Style4";
-
 //Pages
 import Aboutus1 from "../Pages/About/AboutUs1";
 import Aboutus2 from "../Pages/About/AboutUs2";
@@ -60,27 +38,6 @@ const routes = [
   { path: "/carousel-light", element: <CarouselLight /> },
   { path: "/fullscreen-showcase", element: <FullScreenShowcase /> },
 
-  { path: "/portfolio-col-1-style-1", element: <C1Style1 /> },
-  { path: "/portfolio-col-1-style-2", element: <C1Style2 /> },
-
-  { path: "/portfolio-col-2-style-1", element: <C2Style1 /> },
-  { path: "/portfolio-col-2-style-2", element: <C2Style2 /> },
-  { path: "/portfolio-col-2-style-3", element: <C2Style3 /> },
-  { path: "/portfolio-col-2-style-4", element: <C2Style4 /> },
-  { path: "/portfolio-col-2-style-5", element: <C2Style5 /> },
-  { path: "/portfolio-col-2-style-6", element: <C2Style6 /> },
-
-  { path: "/portfolio-col-3-style-1", element: <C3Style1 /> },
-  { path: "/portfolio-col-3-style-2", element: <C3Style2 /> },
-  { path: "/portfolio-col-3-style-3", element: <C3Style3 /> },
-  { path: "/portfolio-col-3-style-4", element: <C3Style4 /> },
-  { path: "/portfolio-col-3-style-5", element: <C3Style5 /> },
-
-  { path: "/portfolio-col-4-style-1", element: <C4Style1 /> },
-  { path: "/portfolio-col-4-style-2", element: <C4Style2 /> },
-  { path: "/portfolio-col-4-style-3", element: <C4Style3 /> },
-  { path: "/portfolio-col-4-style-4", element: <C4Style4 /> },
-
   { path: "/about-us", element: <Aboutus1 /> },
   { path: "/about-us-2", element: <Aboutus2 /> },
   { path: "/about-me", element: <AbouteMe /> },
@@ -92,7 +49,7 @@ const routes = [
   { path: "/blog1", element: <Column1 /> },
   { path: "/singlepost", element: <SinglePost /> },
 
-  { path: "/404", element: <Page404 /> },
+  { path: "*", element: <Page404 /> },
 
   { path: "/contact1", element: <Contact1 /> },
   { path: "/contact2", element: <Contact2 /> },
