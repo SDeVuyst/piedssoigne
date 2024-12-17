@@ -81,8 +81,7 @@ const Slider = () => {
                   </span>
                   <span className="card-img-overlay">
                     <span className="card-title h1">
-                      <span className="card-title-decoration"></span>Happy
-                      Moments Photoset
+                      <span className="card-title-decoration"></span>Professionele voetzorg, zonder de deur uit te gaan.
                     </span>
                   </span>
                 </NavLink>
@@ -104,8 +103,7 @@ const Slider = () => {
                   </span>
                   <span className="card-img-overlay">
                     <span className="card-title h1">
-                      <span className="card-title-decoration"></span>Luxury Car
-                      Website
+                      <span className="card-title-decoration"></span>Specialist in medische voetzorg, tot aan uw voordeur.
                     </span>
                   </span>
                 </NavLink>
