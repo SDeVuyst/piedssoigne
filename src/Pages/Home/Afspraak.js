@@ -1,10 +1,5 @@
 import React from "react";
-import { Col, Container, Row } from "reactstrap";
-import { NavLink } from "react-router-dom";
-import Blog1 from "../../assets/images/blog/blog-1.jpg";
-import Blog2 from "../../assets/images/blog/blog-2.jpg";
-import Blog3 from "../../assets/images/blog/blog-3.jpg";
-import Work from "../../assets/images/portfolio/work-together.jpg";
+import { Container } from "reactstrap";
 import Cal from "@calcom/embed-react";
 
 const Afspraak = () => {

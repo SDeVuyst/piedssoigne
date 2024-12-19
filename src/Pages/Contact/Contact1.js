@@ -3,12 +3,6 @@ import Navbar from "../../Layouts/CommonLayouts/Navbar4";
 import Footer from "../../Layouts/CommonLayouts/Footer2";
 import { Col, Container, Form, Input, Row } from "reactstrap";
 
-const mapStyles = {
-  width: "100%",
-  height: "100%",
-};
-
-const LoadingContainer = () => <div>Loading...</div>;
 const Contact1 = (props) => {
   //meta title
   document.title = "Themebau | Contact 1";
