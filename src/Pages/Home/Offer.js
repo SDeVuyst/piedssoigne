@@ -4,8 +4,8 @@ import { Col, Container, Row } from "reactstrap";
 const Offer = () => {
     return (
         <React.Fragment>
-        <div className="pt-100 pb-90">
-          <Container>
+        <div className="pt-100 pb-90" id="wat-doe-ik">
+          <Container> 
             <h2
               className="display-2 text-center pt-6 mb-10 mt-n10"
               data-aos="fade"

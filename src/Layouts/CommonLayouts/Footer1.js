@@ -36,7 +36,7 @@ const Footer = () => {
               <Row className="gh-1 gv-1">
                 <Col lg={4} className="col-12">
                   <ul className="nav flex-column text-white">
-                  {/* TODO fix navlinks, nu gaan ze nergens naar toe, maar zouden moeten scrollen naar juiste spot, zie button afspraak maken in wie ben ik sectie */}
+                  {/* TODO fix navlinks, nu gaan ze nergens naar toe, maar zouden moeten scrollen naar juiste spot, zie header */}
                     <li className="nav-item">
                       <NavLink to="/#" className="nav-link">
                         Wie ben ik?

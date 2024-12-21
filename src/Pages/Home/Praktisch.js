@@ -22,7 +22,7 @@ const Praktisch = () => {
 
   return (
     <React.Fragment>
-      <div className="py-160 mt-n8 shape-parent bg-dark overflow-hidden">
+      <div className="py-160 mt-n8 shape-parent bg-dark overflow-hidden" id="praktisch">
         <div className="shape justify-content-end mt-n160">
           <svg
             className="mt-n160"
