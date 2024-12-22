@@ -1,11 +1,13 @@
 import React from "react";
-import Navbar from "../../Layouts/CommonLayouts/Navbar2";
+import Navbar from "../../Layouts/CommonLayouts/Navbar";
 import Slider from "./Slider";
 import WieBenIk from "./WieBenIk";
 import WatDoeIk from "./WatDoeIk";
 import Praktisch from "./Praktisch";
 import Afspraak from "./Afspraak";
-import Footer from "../../Layouts/CommonLayouts/Footer1";
+import Footer from "../../Layouts/CommonLayouts/Footer";
+import "swiper/css";
+import "swiper/css/navigation";
 
 const Home = () => {
   //meta title

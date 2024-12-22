@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "reactstrap";
-import Footer from "../Layouts/CommonLayouts/Footer1";
+import Footer from "../Layouts/CommonLayouts/Footer";
 import { Link } from "react-router-dom";
 const Page404 = () => {
   //meta title
@@ -36,7 +36,7 @@ const Page404 = () => {
               Misschien wilt u naar onze homepagina gaan?
             </p>
             <Link
-              to="/home"
+              to="/"
               className="btn btn-dark btn-with-ball mb-15"
               data-aos="fade-up"
             >
