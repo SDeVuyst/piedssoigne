@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from "react";
-import { Row, Col, Container, UncontrolledCollapse } from "reactstrap";
+import { Row, Col, Container } from "reactstrap";
 import { Link, useLocation } from "react-router-dom";
 
 //Images
@@ -10,17 +10,6 @@ const Navbar = ({ navClass }) => {
   const [isClick, setIsClick] = useState(false);
   const location = useLocation();
   const [navbarCollapseHome, setNavbarCollapseHome] = useState(false);
-  const [navbarCollapseProjects, setNavbarCollapseProjects] = useState(false);
-  const [navbarCollapsePages, setNavbarCollapsePages] = useState(false);
-  const [navbarCollapseContact, setNavbarCollapseContact] = useState(false);
-  const [collapse, setCollapse] = useState(false);
-  const [collapse1, setCollapse1] = useState(false);
-  const [collapse2, setCollapse2] = useState(false);
-  const [collapse3, setCollapse3] = useState(false);
-  const [collapse4, setCollapse4] = useState(false);
-  const [collapse5, setCollapse5] = useState(false);
-  const [collapse6, setCollapse6] = useState(false);
-  const [collapse7, setCollapse7] = useState(false);
 
   useEffect(() => {
     document.documentElement.scrollTop = 0;

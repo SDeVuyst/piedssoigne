@@ -10,7 +10,7 @@ import {
   TabPane,
   NavLink,
 } from "reactstrap";
-import { NavLink as RouterLink } from "react-router-dom";
+
 const Praktisch = () => {
   // Vertical Nav Tabs
   const [activeTab, setactiveTab] = useState("1");
