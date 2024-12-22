@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
 
-const Offer = () => {
+const WatDoeIk = () => {
     return (
         <React.Fragment>
         <div className="pt-100 pb-90" id="wat-doe-ik">
@@ -12,15 +12,8 @@ const Offer = () => {
             >
               Wat doe ik?
             </h2>
-            <Row className="justify-content-center">
-                <Col lg={7} className="col-12 text-center">
-                <p className="h4 mb-0">
-                    Een deugddoende voetmassage zit bij elke behandeling inbegrepen!
-                </p>
-                </Col>
-            </Row>
             <Row className="gh-1 gv-2 mt-n3 pb-6">
-              <Col md={6} lg={4} className="col-12" data-aos="fade-up">
+              <Col md={6} lg={6} className="col-12" data-aos="fade-up">
                 <div className="feature">
                   <div className="feature-icon">
                     <svg
@@ -58,62 +51,26 @@ const Offer = () => {
                   </div>
                   <div className="feature-body pt-30">
                     <h4 className="mt-n10 mb-30 pb-5">Behandeling</h4>
-                    <ul className="list font-size-18">
-                      <li>Knippen van de nagels</li>
-                      <li>Verzorging nagelriemen</li>
-                      <li>Gespleten nagels</li>
-                      <li>...</li>
-                    </ul>
+                    <Row className="gh-1 gv-1 mt-30">
+                    <Col lg={6} className="col-12 pt-0">
+                      <ul className="list font-size-18">
+                        <li>Knippen van de nagels</li>
+                        <li>Verzorging nagelriemen</li>
+                        <li>Gespleten nagels</li>
+                      </ul>
+                    </Col>
+                    <Col lg={6} className="col-12 pt-0">
+                      <ul className="list font-size-18">
+                        <li>Eeltvorming</li>
+                        <li>Likdoorns</li>
+                        <li>Ingroeiende teennagels</li>
+                      </ul>
+                    </Col>
+                    </Row>
                   </div>
                 </div>
               </Col>
-              <Col md={6} lg={4} className="col-12" data-aos="fade-up">
-                <div className="feature">
-                  <div className="feature-icon">
-                    <svg
-                      width="71"
-                      height="70"
-                      viewBox="0 0 71 70"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M5.18911 17.7887L35 0.57735L64.8109 17.7887V52.2113L35 69.4226L5.18911 52.2113V17.7887Z"
-                        stroke="currentColor"
-                      />
-                      <path
-                        d="M18.2867 65.3084L1.0754 35.4976L18.2867 5.68667H52.7094L69.9207 35.4976L52.7094 65.3084H18.2867Z"
-                        stroke="currentColor"
-                      />
-                    </svg>
-                    <svg
-                      width="22"
-                      height="22"
-                      viewBox="0 0 22 22"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M1 16L11 21L21 16M1 11L11 16L21 11M11 1L1 6L11 11L21 6L11 1Z"
-                        stroke="currentColor"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  </div>
-                  <div className="feature-body pt-30">
-                    <h4 className="mt-n10 mb-30 pb-5">Preventie</h4>
-                    <ul className="list font-size-18">
-                      <li>Eeltvorming</li>
-                      <li>Likdoorns</li>
-                      <li>Ingroeiende teennagels</li>
-                      <li>...</li>
-                    </ul>
-                  </div>
-                </div>
-              </Col>
-              <Col md={6} lg={4} className="col-12" data-aos="fade-up">
+              <Col md={6} lg={6} className="col-12" data-aos="fade-up">
                 <div className="feature">
                   <div className="feature-icon">
                     <svg
@@ -170,7 +127,7 @@ const Offer = () => {
                     </svg>
                   </div>
                   <div className="feature-body pt-30">
-                    <h4 className="mt-n10 mb-30 pb-5">Advies</h4>
+                    <h4 className="mt-n10 mb-30 pb-5">Advies & Preventie</h4>
                     <ul className="list font-size-18">
                       <li>advies en preventie op maat</li>
                       <li>doorverwijzing naar erkende podologe indien nodig</li>
@@ -179,10 +136,17 @@ const Offer = () => {
                 </div>
               </Col>
             </Row>
+            <Row className="justify-content-center">
+                <Col lg={7} className="col-12 text-center" data-aos="fade-in">
+                <p className="h4 mb-0 mt-10">
+                    Een deugddoende voetmassage zit bij elke behandeling inbegrepen!
+                </p>
+                </Col>
+            </Row>
           </Container>
         </div>
         </React.Fragment>
     );
 };
 
-export default Offer;
+export default WatDoeIk;
