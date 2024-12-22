@@ -6,7 +6,6 @@ import { Link, useLocation } from "react-router-dom";
 import Logo from "../../assets/images/logo-white.svg";
 import Logodark from "../../assets/images/logo.svg";
 
-// TODO: volledige navbar met juiste knoppen
 const Navbar = ({ navClass }) => {
   const [isClick, setIsClick] = useState(false);
   const location = useLocation();

@@ -12,7 +12,6 @@ import "swiper/css/navigation";
 const Home = () => {
   //meta title
   document.title = "Pieds Soingés";
-  // TODO ergens werkend contact form, eventueel Pages/Contact/Contact1.js hier in, idk als best op aparte pagina
   return (
     <React.Fragment>
       <Navbar navClass="dark" />
