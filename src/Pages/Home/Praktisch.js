@@ -131,13 +131,6 @@ const Praktisch = () => {
                       <p>
                         Voor een volledige behandeling telt een vast bedrag: €35 incl. verplaatsingskosten binnen de straal van 20km vanuit Veldegem. {'>'}20km= +€2
                       </p>
-                      <RouterLink
-                        to="/services"
-                        className="btn btn-white btn-with-ball"
-                      >
-                        lees meer
-                        <span className="btn-ball" style={{ transform: "translateY(0px)" }}></span>
-                      </RouterLink>
                     </div>
                     <Col className="col-auto mt-lg-n1 d-none d-md-block">
                       <svg
@@ -278,13 +271,6 @@ const Praktisch = () => {
                       <p>
                         Betalen kan via Cash, Payconiq of via overschrijving.
                       </p>
-                      <RouterLink
-                        to="/services"
-                        className="btn btn-light btn-with-ball"
-                      >
-                        lees meer
-                        <span className="btn-ball" style={{ transform: "translateY(0px)" }}></span>
-                      </RouterLink>
                     </div>
                     <Col className="col-auto mt-lg-n1 d-none d-md-block">
                       <svg
@@ -464,13 +450,6 @@ const Praktisch = () => {
                       <p>
                         Indien u een afspraak wilt annuleren of verplaatsen, vragen wij u vriendelijk dit minimaal 24 uur van tevoren te doen. U kunt dit telefonisch of via sms doorgeven.
                       </p>
-                      <RouterLink
-                        to="/services"
-                        className="btn btn-light btn-with-ball"
-                      >
-                        lees meer
-                        <span className="btn-ball" style={{ transform: "translateY(0px)" }}></span>
-                      </RouterLink>
                     </div>
                     <Col className="col-auto mt-lg-n1 d-none d-md-block">
                       <svg
@@ -582,13 +561,6 @@ const Praktisch = () => {
                       <p>
                         De duur van een afspraak bedraagt gemiddeld tussen de 30 en 60 minuten.
                       </p>
-                      <RouterLink
-                        to="/services"
-                        className="btn btn-light btn-with-ball"
-                      >
-                        lees meer
-                        <span className="btn-ball" style={{ transform: "translateY(0px)" }}></span>
-                      </RouterLink>
                     </div>
                     <Col className="col-auto mt-lg-n1 d-none d-md-block">
                       <svg
@@ -733,13 +705,6 @@ const Praktisch = () => {
                       <p>
                         Wij vragen u om zelf één handdoek mee te brengen en natuurlijk uw breedste glimlach! 😊
                       </p>
-                      <RouterLink
-                        to="/services"
-                        className="btn btn-white btn-with-ball"
-                      >
-                        lees meer
-                        <span className="btn-ball" style={{ transform: "translateY(0px)" }}></span>
-                      </RouterLink>
                     </div>
                     <Col className="col-auto mt-lg-n1 d-none d-md-block">
                       <svg

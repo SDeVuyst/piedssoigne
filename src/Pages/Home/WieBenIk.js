@@ -64,22 +64,16 @@ const WieBenIk = () => {
               </span>
               <span className="card-img-overlay">
                 <span className="card-icon">
-                {/* TODO: update svgs */}
-                  <svg
-                    width="33"
-                    height="33"
-                    viewBox="0 0 33 33"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M24.619 11.85H26.0952C27.6613 11.85 29.1632 12.5032 30.2705 13.6659C31.3779 14.8287 32 16.4057 32 18.05C32 19.6943 31.3779 21.2713 30.2705 22.4341C29.1632 23.5968 27.6613 24.25 26.0952 24.25H24.619M24.619 11.85H1V25.8C1 27.4443 1.62211 29.0213 2.72946 30.1841C3.83682 31.3468 5.33872 32 6.90476 32H18.7143C20.2803 32 21.7822 31.3468 22.8896 30.1841C23.9969 29.0213 24.619 27.4443 24.619 25.8V11.85ZM6.90476 1V5.65M12.8095 1V5.65M18.7143 1V5.65"
-                      stroke="currentColor"
-                      strokeWidth="1.8"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
+                <svg 
+                  width="38" 
+                  height="38" 
+                  viewBox="0 0 24 24" 
+                  fill="none" 
+                  xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 21C15.5 17.4 19 14.1764 19 10.2C19 6.22355 15.866 3 12 3C8.13401 3 5 6.22355 5 10.2C5 14.1764 8.5 17.4 12 21Z" stroke="#ffffff" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M12 12C13.1046 12 14 11.1046 14 10C14 8.89543 13.1046 8 12 8C10.8954 8 10 8.89543 10 10C10 11.1046 10.8954 12 12 12Z" stroke="#ffffff" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+
                 </span>
                 <span className="card-title h5">
                   Geen vervoer nodig
@@ -129,7 +123,6 @@ const WieBenIk = () => {
               </span>
               <span className="card-img-overlay">
                 <span className="card-icon">
-                {/* TODO: update svgs */}
                   <svg
                     width="33"
                     height="33"
@@ -194,21 +187,16 @@ const WieBenIk = () => {
               </span>
               <span className="card-img-overlay">
                 <span className="card-icon">
-                  <svg
-                    width="33"
-                    height="32"
-                    viewBox="0 0 33 32"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M16.5 10C19.0681 10 21.15 7.98528 21.15 5.5C21.15 3.01472 19.0681 1 16.5 1C13.9319 1 11.85 3.01472 11.85 5.5C11.85 7.98528 13.9319 10 16.5 10ZM16.5 10V31M16.5 31C12.3891 31 8.44666 29.4196 5.53984 26.6066C2.63303 23.7936 1 19.9782 1 16H5.65M16.5 31C20.6109 31 24.5533 29.4196 27.4602 26.6066C30.367 23.7936 32 19.9782 32 16H27.35"
-                      stroke="currentColor"
-                      strokeWidth="1.8"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
+                <svg 
+                  width="35" 
+                  height="35" 
+                  viewBox="0 0 24 24" 
+                  fill="none" 
+                  xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke="#ffffff" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M12 6V12" stroke="#ffffff" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M16.24 16.24L12 12" stroke="#ffffff" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
                 </span>
                 <span className="card-title h5">
                   Minder tijdsverlies in uw dagelijkse routine

@@ -3,7 +3,6 @@ import { NavLink, Link } from "react-router-dom";
 import { Col, Container, Row } from "reactstrap";
 import Logo from "../../assets/images/logo-white.svg";
 
-// TODO: footer
 const Footer = () => {
   return (
     <React.Fragment>
@@ -36,26 +35,25 @@ const Footer = () => {
               <Row className="gh-1 gv-1">
                 <Col lg={4} className="col-12">
                   <ul className="nav flex-column text-white">
-                  {/* TODO fix navlinks, nu gaan ze nergens naar toe, maar zouden moeten scrollen naar juiste spot, zie header */}
                     <li className="nav-item">
-                      <NavLink to="/#" className="nav-link">
+                     <a href="#intro" className="nav-link">
                         Wie ben ik?
-                      </NavLink>
+                      </a>
                     </li>
                     <li className="nav-item">
-                      <NavLink to="/#" className="nav-link">
+                      <a href="#wat-doe-ik" className="nav-link">
                         Wat doe ik?
-                      </NavLink>
+                      </a>
                     </li>
                     <li className="nav-item">
-                      <NavLink to="/#" className="nav-link">
+                     <a href="#praktisch" className="nav-link">
                         Praktisch
-                      </NavLink>
+                      </a>
                     </li>
                     <li className="nav-item">
-                      <NavLink to="/#" className="nav-link">
+                     <a href="#afspraak" className="nav-link">
                         Afspraak maken
-                      </NavLink>
+                      </a>
                     </li>
                   </ul>
                 </Col>
