@@ -60,8 +60,8 @@ const Footer = () => {
                 <Col className="col-auto">
                   <ul className="nav flex-column text-white">
                     <li className="nav-item">
-                      <NavLink to="callto:+1 202-358-0309" className="nav-link">
-                        +1 202-358-0309
+                      <NavLink to="callto:+3250380036" className="nav-link">
+                        050 38 00 36
                       </NavLink>
                     </li>
                     <li className="nav-item">
@@ -71,6 +71,9 @@ const Footer = () => {
                       >
                         hello@themebau.com
                       </NavLink>
+                    </li>
+                    <li className="nav-item">
+                      BTW Nummer: BE1018288875
                     </li>
                   </ul>
                 </Col>
