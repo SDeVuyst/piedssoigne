@@ -66,10 +66,10 @@ const Footer = () => {
                     </li>
                     <li className="nav-item">
                       <NavLink
-                        to="mailto:hello@themebau.com?subject=Test%20Address%20Email"
+                        to="mailto:vanessa-vvd@hotmail.com"
                         className="nav-link"
                       >
-                        hello@themebau.com
+                        vanessa-vvd@hotmail.com
                       </NavLink>
                     </li>
                     <li className="nav-item">
@@ -148,7 +148,7 @@ const Footer = () => {
             </Col>
             <Col className="col-auto">
               <div className="footer-copyright">
-                © 2024 | Gemaakt door <Link to="https://github.com/SDeVuyst" className="footer-copyright">SDeVuyst</Link>.
+                © {new Date().getFullYear()} | Gemaakt door <Link to="https://github.com/SDeVuyst" className="footer-copyright">SDeVuyst</Link>.
               </div>
             </Col>
           </Row>
