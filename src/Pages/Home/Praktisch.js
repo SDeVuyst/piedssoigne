@@ -269,7 +269,7 @@ const Praktisch = () => {
                   <Row className="gh-5 gv-5">
                     <div className="col-md">
                       <p>
-                        Betalen kan via Cash, Payconiq of via overschrijving.
+                        Betalen kan via overschrijving, payconiq of cash.
                       </p>
                     </div>
                     <Col className="col-auto mt-lg-n1 d-none d-md-block">
@@ -559,7 +559,7 @@ const Praktisch = () => {
                     <div className="col-lg">
                     {/* TODO: volzin */}
                       <p>
-                        De duur van een afspraak bedraagt gemiddeld tussen de 30 en 60 minuten.
+                        De duur van een eerste afspraak duurt gemiddeld 90 minuten. Voor een onderhoudsverzorging gemiddeld 60 minuten.
                       </p>
                     </div>
                     <Col className="col-auto mt-lg-n1 d-none d-md-block">
@@ -703,7 +703,7 @@ const Praktisch = () => {
                     <div className="col-md">
                     {/* TODO: volzin */}
                       <p>
-                        Wij vragen u om zelf één handdoek mee te brengen en natuurlijk uw breedste glimlach! 😊
+                        Wij vragen u om zelf één handdoek te voorzien.
                       </p>
                     </div>
                     <Col className="col-auto mt-lg-n1 d-none d-md-block">

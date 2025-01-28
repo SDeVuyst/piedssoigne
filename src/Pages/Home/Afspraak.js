@@ -21,7 +21,7 @@ const Afspraak = () => {
               </Col>
           </Row>
           <Row className="gh-1 gv-2 mt-40 pb-6">
-            <Cal calLink="rick/get-rick-rolled" config={{ theme: "light" }}></Cal>
+            <Cal calLink="piedssoignes" config={{ theme: "light" }}></Cal>
           </Row>
            
         </Container>
