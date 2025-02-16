@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
 //Images
-import WebDesign from "../../assets/images/service/web-design.jpg";
-import BrandStrategy from "../../assets/images/service/brand-strategy.jpg";
-import Packaging from "../../assets/images/service/packaging.jpg";
-import ContentProduction from "../../assets/images/service/content-production.jpg";
+import NoTransport from "../../assets/images/service/no_transport.JPG";
+import CozyHome from "../../assets/images/service/cozy_home.jpg";
+import TimeEfficient from "../../assets/images/service/time_efficient.jpg";
+import Flexible from "../../assets/images/service/flexible.JPG";
 
 const WieBenIk = () => {
   return (
@@ -53,7 +53,7 @@ const WieBenIk = () => {
               className="card card-service card-image-xl card-hover-zoom card-bg-show text-white"
             >
               <span className="card-img" data-aos="fade-up">
-                <img src={WebDesign} alt="" />
+                <img src={NoTransport} alt="" />
                 <span
                   className="background-color"
                   style={{
@@ -112,7 +112,7 @@ const WieBenIk = () => {
               className="card card-service card-image-xl card-hover-zoom card-bg-show text-white"
             >
               <span className="card-img" data-aos="fade-up">
-                <img src={BrandStrategy} alt="" />
+                <img src={CozyHome} alt="" />
                 <span
                   className="background-color"
                   style={{
@@ -176,7 +176,7 @@ const WieBenIk = () => {
               className="card card-service card-image-xl card-hover-zoom card-bg-show text-white"
             >
               <span className="card-img" data-aos="fade-up">
-                <img src={Packaging} alt="" />
+                <img src={TimeEfficient} alt="" />
                 <span
                   className="background-color"
                   style={{
@@ -235,7 +235,7 @@ const WieBenIk = () => {
               className="card card-service card-image-xl card-hover-zoom card-bg-show text-white"
             >
               <span className="card-img" data-aos="fade-up">
-                <img src={ContentProduction} alt="" />
+                <img src={Flexible} alt="" />
                 <span
                   className="background-color"
                   style={{
