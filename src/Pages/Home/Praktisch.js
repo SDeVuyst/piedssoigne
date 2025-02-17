@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import classnames from "classnames";
 import {
   Container,
@@ -10,9 +10,21 @@ import {
   TabPane,
   NavLink,
 } from "reactstrap";
+
 const Praktisch = () => {
   // Vertical Nav Tabs
   const [activeTab, setactiveTab] = useState("1");
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768); // Adjust breakpoint as needed
+    };
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const toggleVertical = (tab) => {
     if (activeTab !== tab) {
       setactiveTab(tab);
@@ -45,20 +57,21 @@ const Praktisch = () => {
               >
                 <NavItem>
                   <NavLink
+                    href="#"
                     style={{ cursor: "pointer" }}
                     className={`${activeTab === "1" ? "active" : ""}`}
-                    onClick={() => toggleVertical("1")}
+                    onClick={() => {
+                      toggleVertical("1");
+                    }}
                   >
                     Prijs<span className="badge">01</span>
                   </NavLink>
+                  {isMobile && activeTab === "1" && (
+                    <div className="tab-content-mobile p-3">
+                      <p className="small">Voor een volledige behandeling telt een vast bedrag: €35 incl. verplaatsingskosten binnen de straal van 20km vanuit Veldegem. {'>'}20km= +€2</p>
+                    </div>
+                  )}
                 </NavItem>
-                {activeTab === "1" && ( 
-                  <div className="mt-3 text-muted" style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
-                    <p>
-                      Voor een volledige behandeling telt een vast bedrag: €35 incl. verplaatsingskosten binnen de straal van 20km vanuit Veldegem. {'>'}20km= +€2
-                    </p>
-                  </div>
-                )}
                 <NavItem>
                   <NavLink
                     style={{ cursor: "pointer" }}
@@ -70,14 +83,12 @@ const Praktisch = () => {
                   >
                     Betalingswijze<span className="badge">02</span>
                   </NavLink>
+                  {isMobile && activeTab === "2" && (
+                    <div className="tab-content-mobile p-3">
+                      <p className="small">Betalen kan via overschrijving, payconiq of cash.</p>
+                    </div>
+                  )}
                 </NavItem>
-                {activeTab === "2" && ( 
-                  <div className="mt-3 text-muted" style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
-                    <p>
-                    Betalen kan via Cash, Payconiq of via overschrijving.                    
-                    </p>
-                  </div>
-                )}
                 <NavItem>
                   <NavLink
                     style={{ cursor: "pointer" }}
@@ -92,14 +103,12 @@ const Praktisch = () => {
                   >
                     Afspraak annuleren of verplaatsen<span className="badge">03</span>
                   </NavLink>
+                  {isMobile && activeTab === "3" && (
+                    <div className="tab-content-mobile">
+                      <p className="small">Indien u een afspraak wilt annuleren of verplaatsen, vragen wij u vriendelijk dit minimaal 24 uur van tevoren te doen. U kunt dit telefonisch of via sms doorgeven.</p>
+                    </div>
+                  )}
                 </NavItem>
-                {activeTab === "3" && ( 
-                  <div className="mt-3 text-muted" style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
-                    <p>
-                    Indien u een afspraak wilt annuleren of verplaatsen, vragen wij u vriendelijk dit minimaal 24 uur van tevoren te doen. U kunt dit telefonisch of via sms doorgeven.
-                    </p>
-                  </div>
-                )}
                 <NavItem>
                   <NavLink
                     style={{ cursor: "pointer" }}
@@ -113,14 +122,12 @@ const Praktisch = () => {
                   >
                     Duur van een voetverzorging<span className="badge">04</span>
                   </NavLink>
+                  {isMobile && activeTab === "4" && (
+                    <div className="tab-content-mobile p-3">
+                      <p className="small">De duur van een eerste afspraak duurt gemiddeld 90 minuten. Voor een onderhoudsverzorging gemiddeld 60 minuten.</p>
+                    </div>
+                  )}
                 </NavItem>
-                {activeTab === "4" && ( 
-                  <div className="mt-3 text-muted" style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
-                    <p>
-                    De duur van een afspraak bedraagt gemiddeld tussen de 30 en 60 minuten.
-                    </p>
-                  </div>
-                )}
                 <NavItem>
                   <NavLink
                     style={{ cursor: "pointer" }}
@@ -134,16 +141,15 @@ const Praktisch = () => {
                   >
                     Wat moet ik zelf voorzien<span className="badge">05</span>
                   </NavLink>
+                  {isMobile && activeTab === "5" && (
+                    <div className="tab-content-mobile p-3">
+                      <p className="small">Wij vragen u om zelf één handdoek te voorzien.</p>
+                    </div>
+                  )}
                 </NavItem>
-                {activeTab === "5" && ( 
-                  <div className="mt-3 text-muted" style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
-                    <p>
-                    Wij vragen u om zelf één handdoek mee te brengen en natuurlijk uw breedste glimlach! 😊
-                    </p>
-                  </div>
-                )}
               </Nav>
             </Col>
+            {!isMobile && (
             <Col lg={7} className="col-12">
               <TabContent
                 activeTab={activeTab}
@@ -158,6 +164,11 @@ const Praktisch = () => {
                   aria-labelledby="idea-tab"
                 >
                   <Row className="gh-5 gv-5">
+                    <div className="col-md">
+                      <p>
+                        Voor een volledige behandeling telt een vast bedrag: €35 incl. verplaatsingskosten binnen de straal van 20km vanuit Veldegem. {'>'}20km= +€2
+                      </p>
+                    </div>
                     <Col className="col-auto mt-lg-n1 d-none d-md-block">
                       <svg
                         width="200"
@@ -293,6 +304,11 @@ const Praktisch = () => {
                   aria-labelledby="design-tab"
                 >
                   <Row className="gh-5 gv-5">
+                    <div className="col-md">
+                      <p>
+                        Betalen kan via overschrijving, payconiq of cash.
+                      </p>
+                    </div>
                     <Col className="col-auto mt-lg-n1 d-none d-md-block">
                       <svg
                         width="200"
@@ -466,6 +482,11 @@ const Praktisch = () => {
                   aria-labelledby="development-tab"
                 >
                   <Row className="gh-5 gv-5">
+                    <div className="col-md">
+                      <p>
+                        Indien u een afspraak wilt annuleren of verplaatsen, vragen wij u vriendelijk dit minimaal 24 uur van tevoren te doen. U kunt dit telefonisch of via sms doorgeven.
+                      </p>
+                    </div>
                     <Col className="col-auto mt-lg-n1 d-none d-md-block">
                       <svg
                         width="220"
@@ -571,6 +592,11 @@ const Praktisch = () => {
                   aria-labelledby="release-tab"
                 >
                   <Row className="gh-5 gv-5">
+                    <div className="col-lg">
+                      <p>
+                        De duur van een eerste afspraak duurt gemiddeld 90 minuten. Voor een onderhoudsverzorging gemiddeld 60 minuten.
+                      </p>
+                    </div>
                     <Col className="col-auto mt-lg-n1 d-none d-md-block">
                       <svg
                         width="200"
@@ -709,6 +735,11 @@ const Praktisch = () => {
                   aria-labelledby="idea-tab"
                 >
                   <Row className="gh-5 gv-5">
+                    <div className="col-md">
+                      <p>
+                        Wij vragen u om zelf één handdoek te voorzien.
+                      </p>
+                    </div>
                     <Col className="col-auto mt-lg-n1 d-none d-md-block">
                       <svg
                         width="200"
@@ -838,6 +869,7 @@ const Praktisch = () => {
                 </TabPane>
               </TabContent>
             </Col>
+            )}
           </Row>
         </Container>
       </div>
