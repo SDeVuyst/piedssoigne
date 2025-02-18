@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
 //Images
-import WebDesign from "../../assets/images/service/web-design.jpg";
-import BrandStrategy from "../../assets/images/service/brand-strategy.jpg";
-import Packaging from "../../assets/images/service/packaging.jpg";
-import ContentProduction from "../../assets/images/service/content-production.jpg";
+import NoTransport from "../../assets/images/service/no_transport.webp";
+import CozyHome from "../../assets/images/service/cozy_home.webp";
+import TimeEfficient from "../../assets/images/service/time_efficient.webp";
+import Flexible from "../../assets/images/service/flexible.webp";
 
 const WieBenIk = () => {
   return (
@@ -14,7 +14,7 @@ const WieBenIk = () => {
         <Container>
           <Row className="justify-content-center">
             <Col lg={7} className="col-12 text-center">
-              <p className="subtitle mt-n10">wie ben ik</p>
+              <p className="subtitle mt-n10">Wie ben ik</p>
               <h1 className="h3 mb-0">
                 Ik ben Vanessa, een goedlachse en warme persoonlijkheid die u graag op wolkjes doet lopen!👋
               </h1>
@@ -53,7 +53,7 @@ const WieBenIk = () => {
               className="card card-service card-image-xl card-hover-zoom card-bg-show text-white"
             >
               <span className="card-img" data-aos="fade-up">
-                <img src={WebDesign} alt="" />
+                <img src={NoTransport} alt="" />
                 <span
                   className="background-color"
                   style={{
@@ -112,7 +112,7 @@ const WieBenIk = () => {
               className="card card-service card-image-xl card-hover-zoom card-bg-show text-white"
             >
               <span className="card-img" data-aos="fade-up">
-                <img src={BrandStrategy} alt="" />
+                <img src={CozyHome} alt="" />
                 <span
                   className="background-color"
                   style={{
@@ -176,7 +176,7 @@ const WieBenIk = () => {
               className="card card-service card-image-xl card-hover-zoom card-bg-show text-white"
             >
               <span className="card-img" data-aos="fade-up">
-                <img src={Packaging} alt="" />
+                <img src={TimeEfficient} alt="" />
                 <span
                   className="background-color"
                   style={{
@@ -235,7 +235,7 @@ const WieBenIk = () => {
               className="card card-service card-image-xl card-hover-zoom card-bg-show text-white"
             >
               <span className="card-img" data-aos="fade-up">
-                <img src={ContentProduction} alt="" />
+                <img src={Flexible} alt="" />
                 <span
                   className="background-color"
                   style={{

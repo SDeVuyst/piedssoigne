@@ -4,9 +4,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Navigation, Autoplay } from "swiper";
 
-import Colorib from "../../assets/images/portfolio/colibri-creative-1920-1080.jpg";
-import Happy from "../../assets/images/portfolio/happy-moments-1920-1080.jpg";
-import Portfolio from "../../assets/images/portfolio/luxury-car-1920-1080.jpg";
+import Voordeur from "../../assets/images/portfolio/Voordeur_foto.webp";
+import Voordeur2 from "../../assets/images/portfolio/voet_foto.webp";
+import InHuis from "../../assets/images/portfolio/voordeur_foto2.webp";
 
 const Slider = () => {
   return (
@@ -47,7 +47,7 @@ const Slider = () => {
                     className="card-img swiper-image"
                     data-swiper-parallax-x="20%"
                   >
-                    <img src={Colorib} alt="" />
+                    <img src={Voordeur} alt="" />
                     <span
                       className="background-color"
                       style={{ backgroundColor: "rgba(14, 14, 14, .2)" }}
@@ -67,7 +67,7 @@ const Slider = () => {
                     className="card-img swiper-image"
                     data-swiper-parallax-x="20%"
                   >
-                    <img src={Happy} alt="" />
+                    <img src={Voordeur2} alt="" />
                     <span
                       className="background-color"
                       style={{ backgroundColor: "rgba(14, 14, 14, .2)" }}
@@ -86,7 +86,7 @@ const Slider = () => {
                     className="card-img swiper-image"
                     data-swiper-parallax-x="20%"
                   >
-                    <img src={Portfolio} alt="" />
+                    <img src={InHuis} alt="" />
                     <span
                       className="background-color"
                       style={{ backgroundColor: "rgba(14, 14, 14, .2)" }}
