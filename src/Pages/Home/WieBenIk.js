@@ -16,7 +16,7 @@ const WieBenIk = () => {
             <Col lg={7} className="col-12 text-center">
               <p className="subtitle mt-n10">Wie ben ik</p>
               <h1 className="h3 mb-0">
-                Ik ben Vanessa, een goedlachse en warme persoonlijkheid die graag wat meer over zichzelf kwijt wilt.👋
+                Ik ben Vanessa, een goedlachse en warme persoonlijkheid die u graag op wolkjes doet lopen!👋
               </h1>
             </Col>
           </Row>

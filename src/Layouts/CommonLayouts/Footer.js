@@ -60,17 +60,20 @@ const Footer = () => {
                 <Col className="col-auto">
                   <ul className="nav flex-column text-white">
                     <li className="nav-item">
-                      <NavLink to="callto:+1 202-358-0309" className="nav-link">
-                        +1 202-358-0309
+                      <NavLink to="callto:+3250380036" className="nav-link">
+                        050 38 00 36
                       </NavLink>
                     </li>
                     <li className="nav-item">
                       <NavLink
-                        to="mailto:hello@themebau.com?subject=Test%20Address%20Email"
+                        to="mailto:vanessa-vvd@hotmail.com"
                         className="nav-link"
                       >
-                        hello@themebau.com
+                        vanessa-vvd@hotmail.com
                       </NavLink>
+                    </li>
+                    <li className="nav-item">
+                      BTW Nummer: BE1018288875
                     </li>
                   </ul>
                 </Col>
@@ -145,7 +148,7 @@ const Footer = () => {
             </Col>
             <Col className="col-auto">
               <div className="footer-copyright">
-                © 2024 | Gemaakt door <Link to="https://github.com/SDeVuyst" className="footer-copyright">SDeVuyst</Link>.
+                © {new Date().getFullYear()} | Gemaakt door <Link to="https://github.com/SDeVuyst" className="footer-copyright">SDeVuyst</Link>.
               </div>
             </Col>
           </Row>

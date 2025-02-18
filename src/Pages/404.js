@@ -4,7 +4,7 @@ import Footer from "../Layouts/CommonLayouts/Footer";
 import { Link } from "react-router-dom";
 const Page404 = () => {
   //meta title
-  document.title = "Pieds Soingés | 404";
+  document.title = "Pieds Soignés | 404";
   return (
     <React.Fragment>
       <div className="content-wrap vh-100" id="content-wrap">
