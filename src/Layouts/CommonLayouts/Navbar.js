@@ -3,7 +3,10 @@ import { Row, Col, Container } from "reactstrap";
 import { Link, useLocation } from "react-router-dom";
 
 //Images
-import Logo from "../../assets/images/logo-white.svg";
+//Goud
+import Logo from "../../assets/images/logo_trans_nav.png";
+//Wit
+//import Logo from "../../assets/images/logo_trans_nav_white.png";
 import Logodark from "../../assets/images/logo.svg";
 
 const Navbar = ({ navClass }) => {
@@ -100,8 +103,7 @@ const Navbar = ({ navClass }) => {
       <header className={"navbar 222 navbar-top navbar-expand-lg navbar-" + navClass}>
         <Container className="justify-content-between">
           <Link className="navbar-brand" to="/">
-            {navClass === "dark" ? <img width="107" src={Logo} alt="" /> :
-              <img width="107" src={Logodark} alt="" />}
+            <img width="150" src={Logo} alt="" /> 
           </Link>
           <div
             className="navbar-toggle"

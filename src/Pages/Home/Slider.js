@@ -4,9 +4,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Navigation, Autoplay } from "swiper";
 
-import Voordeur from "../../assets/images/portfolio/Voordeur_foto.JPG";
-import Voordeur2 from "../../assets/images/portfolio/voet_foto.JPG";
-import InHuis from "../../assets/images/portfolio/voordeur_foto2.JPG";
+import Voordeur from "../../assets/images/portfolio/Voordeur_foto.webp";
+import Voordeur2 from "../../assets/images/portfolio/voet_foto.webp";
+import InHuis from "../../assets/images/portfolio/voordeur_foto2.webp";
 
 const Slider = () => {
   return (

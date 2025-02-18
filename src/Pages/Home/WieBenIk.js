@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
 //Images
-import NoTransport from "../../assets/images/service/no_transport.JPG";
-import CozyHome from "../../assets/images/service/cozy_home.jpg";
-import TimeEfficient from "../../assets/images/service/time_efficient.jpg";
-import Flexible from "../../assets/images/service/flexible.JPG";
+import NoTransport from "../../assets/images/service/no_transport.webp";
+import CozyHome from "../../assets/images/service/cozy_home.webp";
+import TimeEfficient from "../../assets/images/service/time_efficient.webp";
+import Flexible from "../../assets/images/service/flexible.webp";
 
 const WieBenIk = () => {
   return (
@@ -14,7 +14,7 @@ const WieBenIk = () => {
         <Container>
           <Row className="justify-content-center">
             <Col lg={7} className="col-12 text-center">
-              <p className="subtitle mt-n10">wie ben ik</p>
+              <p className="subtitle mt-n10">Wie ben ik</p>
               <h1 className="h3 mb-0">
                 Ik ben Vanessa, een goedlachse en warme persoonlijkheid die graag wat meer over zichzelf kwijt wilt.👋
               </h1>
