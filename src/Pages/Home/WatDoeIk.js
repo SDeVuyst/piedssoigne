@@ -56,6 +56,8 @@ const WatDoeIk = () => {
                         <li>Knippen van de nagels</li>
                         <li>Verzorging nagelriemen</li>
                         <li>Gespleten nagels</li>
+                        <li>Kalk, Schimmel en tunnelnagels</li>
+                        <li>Behandelen van kloven</li>
                       </ul>
                     </Col>
                     <Col lg={6} className="col-12 pt-0">

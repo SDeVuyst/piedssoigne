@@ -105,7 +105,7 @@ const Praktisch = () => {
                   </NavLink>
                   {isMobile && activeTab === "3" && (
                     <div className="tab-content-mobile">
-                      <p className="small">Indien u een afspraak wilt annuleren of verplaatsen, vragen wij u vriendelijk dit minimaal 24 uur van tevoren te doen. U kunt dit telefonisch of via sms doorgeven.</p>
+                      <p className="small">Indien u een afspraak wilt annuleren of verplaatsen, vragen wij u vriendelijk dit minimaal 24 uur van tevoren te doen. U kunt dit telefonisch doorgeven.</p>
                     </div>
                   )}
                 </NavItem>
@@ -484,7 +484,7 @@ const Praktisch = () => {
                   <Row className="gh-5 gv-5">
                     <div className="col-md">
                       <p>
-                        Indien u een afspraak wilt annuleren of verplaatsen, vragen wij u vriendelijk dit minimaal 24 uur van tevoren te doen. U kunt dit telefonisch of via sms doorgeven.
+                        Indien u een afspraak wilt annuleren of verplaatsen, vragen wij u vriendelijk dit minimaal 24 uur van tevoren te doen. U kunt dit telefonisch doorgeven.
                       </p>
                     </div>
                     <Col className="col-auto mt-lg-n1 d-none d-md-block">
