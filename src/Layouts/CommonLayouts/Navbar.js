@@ -7,7 +7,6 @@ import { Link, useLocation } from "react-router-dom";
 // import Logo from "../../assets/images/logo_trans_nav.png";
 //Wit
 import Logo from "../../assets/images/logo_trans_nav_white.png";
-import Logodark from "../../assets/images/logo.svg";
 
 const Navbar = ({ navClass }) => {
   const [isClick, setIsClick] = useState(false);
@@ -159,7 +158,7 @@ const Navbar = ({ navClass }) => {
         <div className="navbar-head">
           <Container className="justify-content-between">
             <Link className="navbar-brand" to="/home">
-              {(navClass && navClass.includes("dark")) ? <img width="107" src={Logo} alt="logo" /> : <img width="107" src={Logodark} alt="logo" />}
+              <img width="107" src={Logo} alt="logo" />
             </Link>
             <div className="navbar-toggle" onClick={toggleRemove}>
               <span></span>
