@@ -288,7 +288,7 @@ const Navbar = ({ navClass }) => {
                     <li className="list-group-item">
                       Telefoon:{" "}
                       <Link
-                        to="/callto:+3250380036"
+                        to="callto:+3250380036"
                         className="text-decoration-none text-white"
                       >
                         050 38 00 36
